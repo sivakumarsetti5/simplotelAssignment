@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.nav-container {
+    font-family: 'bree serif';
+    background-color: #f24747;
+    padding: 10px 50px;
+    margin-top: 0px;
+}
+
+@media only screen and (max-width:767px) {
+    .nav-container {
+        padding-right: 20px;
+    }
+}
+
+.ul-container {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:767px) {
+    .ul-container {
+        justify-content: flex-end;
+    }
+}
+
+.list-item {
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+@media only screen and (max-width:767px) {
+    .list-item {
+        display: none;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .list-item {
+        font-size: 15px;
+    }
+}
+
+.option-img {
+    height: 20px;
+    width: 20px;
+    padding-top: 3px;
+}
+
+.container1 {
+    display: flex;
+}
+
+@media only screen and (max-width:767px) {
+    .container1 {
+        flex-direction: column;
+    }
+}
+
+.banner-container {
+    background-image: linear-gradient(to right, #fde295, #ffc0cb);
+    font-family: 'roboto';
+    height: 340px;
+    width: 50vw;
+    padding: 30px;
+}
+
+@media only screen and (max-width:767px) {
+    .banner-container {
+        width: 85vw;
+        padding: 15px;
+        min-height: 100px;
+    }
+}
+
+.heading {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width:767px) {
+    .heading {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .paragraph {
+        font-size: 15px;
+    }
+}
+
+.click-me-btn {
+    background-color: #f24747;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-family: 'roboto';
+    margin-top: 30px;
+}
+
+.banner-img {
+    height: 400px;
+    width: 50vw;
+}
+
+@media only screen and (max-width:767px) {
+    .banner-img {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(to right, #fde295, #ffc0cb);
+    font-family: 'roboto';
+    padding: 30px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:767px) {
+    .section-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+.image-container {
+    display: flex;
+    width: 50vw;
+}
+
+@media only screen and (max-width:767px) {
+    .image-container {
+        width: 100vw;
+        padding: 20px;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+}
+
+.image-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width:767px) {
+    .image-cont {
+        padding: 20px;
+    }
+}
+
+.image1 {
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+}
+
+@media only screen and (max-width:767px) {
+    .image1 {
+        height: 100px;
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .image1 {
+        height: 150px;
+        width: 150px;
+        margin: 10px;
+    }
+}
+
+.image2 {
+    height: 420px;
+    width: 250px;
+    margin: 10px;
+}
+
+@media only screen and (max-width:767px) {
+    .image2 {
+        height: 250px;
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .image2 {
+        height: 320px;
+        width: 150px;
+        margin: 10px;
+    }
+}
+
+.details-container {
+    background-color: #f24747;
+    padding: 20px;
+    width: 350px;
+    height: 180px;
+}
+
+@media only screen and (max-width:767px) {
+    .details-container {
+        width: 200px;
+        height: 100px;
+        padding: 15px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .details-container {
+        width: 300px;
+        height: 150px;
+    }
+}
+
+.name-text {
+    font-size: 20px;
+}
+
+@media only screen and (max-width:767px) {
+    .name-text {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .name-text {
+        font-size: 15px;
+    }
+}
+
+.head-text {
+    font-size: 30px;
+}
+
+@media only screen and (min-width:768px) {
+    .head-text {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .head-text {
+        font-size: 15px;
+    }
+}
+
+.click-cont {
+    display: flex;
+}
+
+.arrow-img {
+    height: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
